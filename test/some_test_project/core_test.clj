@@ -4,4 +4,20 @@
 
 (deftest a-test
   (testing "FIXME, I fail."
-    (is (= 0 1))))
+    (is (= 1 1))))
+
+(deftest b-test
+  (testing "FIXME, I fail."
+    (is (= 1 1))))
+
+(deftest c-test
+  (testing "FIXME, I fail."
+    (is (= 1 1))))
+
+(deftest d-test
+  (testing "FIXME, I fail."
+    (is (= 1 1))))
+
+(deftest e-test
+  (testing "FIXME, I fail."
+    (is (= 1 1))))
