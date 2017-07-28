@@ -40,7 +40,7 @@ jobs:
           path: test-reports/
       - add_ssh_keys:
           fingerprints:
-            - "a4:5c:fd:f5:1a:70:a6:18:35:3a:21:2d:5b:33:df:e7"
+            - "5e:c0:6a:85:89:97:d6:67:82:60:13:c3:6e:d5:f1:70"
       - deploy:
           name: Deploy Master to Heroku
           command: |
