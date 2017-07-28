@@ -3,7 +3,7 @@
             [clojure-getting-started.web :refer :all]))
 
 (deftest first-test
-  (is false false))
+  (is (= false false)))
 
 (deftest a-test
   (testing "FIXME, I fail."
