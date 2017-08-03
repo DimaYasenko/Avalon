@@ -18,5 +18,5 @@
   (is (= 2 (hamming/distance "ACCAGGG" "ACTATGG"))))
 
 (deftest undefined-when-lengths-are-different
-  (is (= 5 (hamming/distance "AAAC" "TAGGGGAGGCTAGCGGTAGGAC")))
-  (is (= 5 (hamming/distance "GACTACGGACAGGGTAACATAG" "GACA"))))
+  (is (= nil (hamming/distance "AAAC" "TAGGGGAGGCTAGCGGTAGGAC")))
+  (is (= nil (hamming/distance "GACTACGGACAGGGTAACATAG" "GACA"))))
