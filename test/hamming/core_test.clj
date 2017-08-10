@@ -20,6 +20,3 @@
 (deftest undefined-when-lengths-are-different
   (is (= nil (hamming/distance "AAAC" "TAGGGGAGGCTAGCGGTAGGAC")))
   (is (= nil (hamming/distance "GACTACGGACAGGGTAACATAG" "GACA"))))
-
-(deftest new-test
-  (is (= 0 1)))
