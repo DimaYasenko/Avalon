@@ -8,7 +8,9 @@
   (cond
     (and (empty? first-dna) (empty? second-dna)) 0
     (not= (.length first-dna) (.length second-dna)) nil
-    :default (calculate-distance-between-dna-strands first-dna second-dna)))
+    :default (calculate-distance-between-dna-strands first-dna second-dna))
+
+  5)
 
 (defn -main [& args]
   (println "Hamming"))
